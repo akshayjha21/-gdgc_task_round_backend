@@ -1,0 +1,20 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "shopping api",
+  "main": "shoppingapi.js",
+  "type": "module",
+  "scripts": {
+     "start": "node shoppingapi.js",
+    "dev": "nodemon shoppingapi.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "akshay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
